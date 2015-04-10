@@ -10,6 +10,7 @@ var async           = require('async');
  * @param {string} siteURL
  * @param {string} siteDistPath
  * @param {boolean} dryRun
+ * @param {string} tld
  * @constructor
  */
 module.exports = function Sitemap(siteURL, siteDistPath, dryRun, tld) {
