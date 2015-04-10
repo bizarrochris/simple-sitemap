@@ -47,3 +47,9 @@ Takes a callback that will run when it's finished submitting to Google and Bing.
 ### Other Tidbits of Interest
 
 Sitemaps are named with a count appended to the end of the filename by default. For example, most small sites will end up with a sitemap called `sitemap-01.xml`. This appended value will increase based on the number of sitemaps automatically created.
+
+There is also an `sitemap-index.xml` generated which then is used for the submission to Google and Bing. Make sure this is reachable on your server.
+
+### Multidomain addition
+
+Added Multidomain support - for apps running multiple domains on the same app - in this fork. The sitemap and the index file will be appended the tld passed in the constructor.
