@@ -1,7 +1,7 @@
 {
   "name": "multidomain-simple-sitemap",
   "version": "0.0.1",
-  "description": "A simple sitemap module that supports sites larger than 50,000 pages and automatically submits to Bing and Google.",
+  "description": "A simple multidomain sitemap module that supports sites larger than 50,000 pages and automatically submits to Bing and Google.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,15 +11,19 @@
     "README.md",
     "package.json"
   ],
-  "keywords": ["sitemaps", "sitemap", "create sitemap", "submit to Google", "submit to Bing"],
+  "keywords": ["sitemaps", "sitemap", "multidomain sitemap", "multidomain", "create sitemap", "submit to Google", "submit to Bing"],
   "homepage": "https://github.com/bizarrochris/simple-sitemap",
   "repository": {
     "type": "git",
     "url": "https://github.com/bizarrochris/simple-sitemap"
   },
-  "bugs": "https://github.com/fetchlogic/simple-sitemap/issues",
-  "author": "Justin Davis (http://justindavis.co)",
+  "bugs": "https://github.com/bizarrochris/simple-sitemap/issues",
+  "author": "Christoph Bitzner (theventury.com)",
   "contributors" : [
+    {
+      "name": "Justin Davis (http://justindavis.co)",
+      "url": "http://joshtronic.com"
+    },
     {
       "name": "Josh Sherman",
       "url": "http://joshtronic.com"
